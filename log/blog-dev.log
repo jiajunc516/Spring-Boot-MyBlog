@@ -1,0 +1,68 @@
+2020-03-02 00:04:36.496  INFO 22172 --- [restartedMain] com.cjj.demo.DemoApplication             : Starting DemoApplication on DESKTOP-DT1LOSU with PID 22172 (started by doubi in E:\Java Projects\blog)
+2020-03-02 00:04:36.500  INFO 22172 --- [restartedMain] com.cjj.demo.DemoApplication             : The following profiles are active: dev
+2020-03-02 00:04:36.529  INFO 22172 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\doubi\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/doubi/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/doubi/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/doubi/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/doubi/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/doubi/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/doubi/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-03-02 00:04:36.530  INFO 22172 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-02 00:04:36.531  INFO 22172 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-02 00:04:36.948  INFO 22172 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-02 00:04:36.963  INFO 22172 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 JPA repository interfaces.
+2020-03-02 00:04:37.435  INFO 22172 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-02 00:04:37.442  INFO 22172 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-02 00:04:37.442  INFO 22172 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-02 00:04:37.544  INFO 22172 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-02 00:04:37.544  INFO 22172 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1013 ms
+2020-03-02 00:04:37.655  INFO 22172 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-02 00:04:37.693  INFO 22172 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-02 00:04:37.755  INFO 22172 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-02 00:04:37.811  INFO 22172 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-02 00:04:38.017  INFO 22172 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-02 00:04:38.028  INFO 22172 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-03-02 00:04:38.155  INFO 22172 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-02 00:04:38.160  INFO 22172 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-02 00:04:38.210  INFO 22172 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-02 00:04:38.279  WARN 22172 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-02 00:04:38.438  INFO 22172 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-02 00:04:38.503  INFO 22172 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-02 00:04:38.963  INFO 22172 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-02 00:04:38.965  INFO 22172 --- [restartedMain] com.cjj.demo.DemoApplication             : Started DemoApplication in 2.777 seconds (JVM running for 3.593)
+2020-03-02 00:04:45.131  INFO 22172 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-02 00:04:45.133  INFO 22172 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-02 00:04:45.142  INFO 22172 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-03-02 00:04:45.191  INFO 22172 --- [http-nio-8080-exec-1] com.cjj.demo.aspect.LogAspect            : Request : {url='http://127.0.0.1:8080/about', ip='127.0.0.1', classMethod='com.cjj.demo.web.IndexController.about', args=[]}
+2020-03-02 00:04:45.195  INFO 22172 --- [http-nio-8080-exec-1] com.cjj.demo.aspect.LogAspect            : Result : about
+2020-03-02 00:06:06.454  INFO 22172 --- [http-nio-8080-exec-10] com.cjj.demo.aspect.LogAspect            : Request : {url='http://127.0.0.1:8080/about', ip='127.0.0.1', classMethod='com.cjj.demo.web.IndexController.about', args=[]}
+2020-03-02 00:06:06.454  INFO 22172 --- [http-nio-8080-exec-10] com.cjj.demo.aspect.LogAspect            : Result : about
+2020-03-02 00:11:13.157  INFO 8712 --- [restartedMain] com.cjj.demo.DemoApplication             : Starting DemoApplication on DESKTOP-DT1LOSU with PID 8712 (started by doubi in E:\Java Projects\blog)
+2020-03-02 00:11:13.158  INFO 8712 --- [restartedMain] com.cjj.demo.DemoApplication             : The following profiles are active: dev
+2020-03-02 00:11:13.190  INFO 8712 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\doubi\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/doubi/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/doubi/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/doubi/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/doubi/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/doubi/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/doubi/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-03-02 00:11:13.191  INFO 8712 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-02 00:11:13.191  INFO 8712 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-02 00:11:13.570  INFO 8712 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-02 00:11:13.582  INFO 8712 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7ms. Found 0 JPA repository interfaces.
+2020-03-02 00:11:14.032  INFO 8712 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-02 00:11:14.039  INFO 8712 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-02 00:11:14.039  INFO 8712 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-02 00:11:14.141  INFO 8712 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-02 00:11:14.141  INFO 8712 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 950 ms
+2020-03-02 00:11:14.252  INFO 8712 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-02 00:11:14.289  INFO 8712 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-02 00:11:14.350  INFO 8712 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-02 00:11:14.407  INFO 8712 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-02 00:11:14.625  INFO 8712 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-02 00:11:14.636  INFO 8712 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-03-02 00:11:14.770  INFO 8712 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-02 00:11:14.775  INFO 8712 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-02 00:11:14.826  INFO 8712 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-02 00:11:14.902  WARN 8712 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-02 00:11:15.066  INFO 8712 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-02 00:11:15.135  INFO 8712 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-02 00:11:15.610  INFO 8712 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-02 00:11:15.613  INFO 8712 --- [restartedMain] com.cjj.demo.DemoApplication             : Started DemoApplication in 2.793 seconds (JVM running for 3.641)
+2020-03-02 00:11:19.531  INFO 8712 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-02 00:11:19.533  INFO 8712 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-02 00:11:19.544  INFO 8712 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2020-03-02 00:11:19.600  INFO 8712 --- [http-nio-8080-exec-1] com.cjj.demo.aspect.LogAspect            : Request : {url='http://127.0.0.1:8080/types', ip='127.0.0.1', classMethod='com.cjj.demo.web.IndexController.types', args=[]}
+2020-03-02 00:11:19.604  INFO 8712 --- [http-nio-8080-exec-1] com.cjj.demo.aspect.LogAspect            : Result : types
+2020-03-02 00:11:36.051  INFO 8712 --- [http-nio-8080-exec-6] com.cjj.demo.aspect.LogAspect            : Request : {url='http://127.0.0.1:8080/tags', ip='127.0.0.1', classMethod='com.cjj.demo.web.IndexController.tags', args=[]}
+2020-03-02 00:11:36.052  INFO 8712 --- [http-nio-8080-exec-6] com.cjj.demo.aspect.LogAspect            : Result : tags
+2020-03-02 00:11:48.252  INFO 8712 --- [http-nio-8080-exec-5] com.cjj.demo.aspect.LogAspect            : Request : {url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.cjj.demo.web.IndexController.archives', args=[]}
+2020-03-02 00:11:48.252  INFO 8712 --- [http-nio-8080-exec-5] com.cjj.demo.aspect.LogAspect            : Result : archives
