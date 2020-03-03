@@ -1,6 +1,7 @@
 package com.cjj.demo.po;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotBlank;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,6 +12,7 @@ public class Tag {
     @Id
     @GeneratedValue
     private Long id;
+    @NotBlank(message = "分类名称不能为空")
     private String name;
 
     @ManyToMany(mappedBy = "tags")
