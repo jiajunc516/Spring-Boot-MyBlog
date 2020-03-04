@@ -6,24 +6,13 @@
       <change beforePath="$PROJECT_DIR$/log/blog-dev.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/blog-dev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cjj/demo/po/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cjj/demo/po/Blog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cjj/demo/service/BlogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cjj/demo/service/BlogServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cjj/demo/service/TagService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cjj/demo/service/TagService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cjj/demo/service/TagServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cjj/demo/service/TagServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cjj/demo/web/admin/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cjj/demo/web/admin/BlogController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/_fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/_fragments.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/blogs-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/blogs-input.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/blogs.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/blogs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/tags-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/tags-input.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/types-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/types-input.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cjj/demo/service/BlogServiceImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cjj/demo/service/BlogServiceImpl$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/cjj/demo/service/BlogServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cjj/demo/service/BlogServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cjj/demo/service/TagService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cjj/demo/service/TagService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/cjj/demo/service/TagServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cjj/demo/service/TagServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/cjj/demo/web/admin/BlogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cjj/demo/web/admin/BlogController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/_fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/_fragments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/blogs-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/blogs-input.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/blogs.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/blogs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/tags-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/tags-input.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/types-input.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/types-input.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +181,8 @@
       <workItem from="1583215273093" duration="11639000" />
       <workItem from="1583236936037" duration="8207000" />
       <workItem from="1583300902317" duration="5816000" />
-      <workItem from="1583310199439" duration="3303000" />
+      <workItem from="1583310199439" duration="3413000" />
+      <workItem from="1583321026144" duration="3271000" />
     </task>
     <servers />
   </component>
@@ -236,45 +226,45 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="735" y="266" key="FileChooserDialogImpl/0.0.1920.1050/1920.-4.1920.1050@0.0.1920.1050" timestamp="1583132354438" />
-    <state width="1340" height="266" key="GridCell.Tab.0.bottom" timestamp="1583313551004">
+    <state width="1340" height="266" key="GridCell.Tab.0.bottom" timestamp="1583324302780">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1340" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.-4.1920.1050@0.0.1920.1050" timestamp="1583313551004" />
+    <state width="1340" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.-4.1920.1050@0.0.1920.1050" timestamp="1583324302780" />
     <state width="1340" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1583071743679" />
-    <state width="1340" height="266" key="GridCell.Tab.0.center" timestamp="1583313551004">
+    <state width="1340" height="266" key="GridCell.Tab.0.center" timestamp="1583324302780">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1340" height="266" key="GridCell.Tab.0.center/0.0.1920.1050/1920.-4.1920.1050@0.0.1920.1050" timestamp="1583313551004" />
+    <state width="1340" height="266" key="GridCell.Tab.0.center/0.0.1920.1050/1920.-4.1920.1050@0.0.1920.1050" timestamp="1583324302780" />
     <state width="1340" height="266" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1583071743679" />
-    <state width="1340" height="266" key="GridCell.Tab.0.left" timestamp="1583313551004">
+    <state width="1340" height="266" key="GridCell.Tab.0.left" timestamp="1583324302779">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1340" height="266" key="GridCell.Tab.0.left/0.0.1920.1050/1920.-4.1920.1050@0.0.1920.1050" timestamp="1583313551004" />
+    <state width="1340" height="266" key="GridCell.Tab.0.left/0.0.1920.1050/1920.-4.1920.1050@0.0.1920.1050" timestamp="1583324302779" />
     <state width="1340" height="266" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1583071743679" />
-    <state width="1340" height="266" key="GridCell.Tab.0.right" timestamp="1583313551004">
+    <state width="1340" height="266" key="GridCell.Tab.0.right" timestamp="1583324302780">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1340" height="266" key="GridCell.Tab.0.right/0.0.1920.1050/1920.-4.1920.1050@0.0.1920.1050" timestamp="1583313551004" />
+    <state width="1340" height="266" key="GridCell.Tab.0.right/0.0.1920.1050/1920.-4.1920.1050@0.0.1920.1050" timestamp="1583324302780" />
     <state width="1340" height="266" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1583071743679" />
-    <state width="1340" height="266" key="GridCell.Tab.1.bottom" timestamp="1583313551004">
+    <state width="1340" height="266" key="GridCell.Tab.1.bottom" timestamp="1583324302780">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1340" height="266" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.-4.1920.1050@0.0.1920.1050" timestamp="1583313551004" />
+    <state width="1340" height="266" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.-4.1920.1050@0.0.1920.1050" timestamp="1583324302780" />
     <state width="1340" height="266" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1583071743680" />
-    <state width="1340" height="266" key="GridCell.Tab.1.center" timestamp="1583313551004">
+    <state width="1340" height="266" key="GridCell.Tab.1.center" timestamp="1583324302780">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1340" height="266" key="GridCell.Tab.1.center/0.0.1920.1050/1920.-4.1920.1050@0.0.1920.1050" timestamp="1583313551004" />
+    <state width="1340" height="266" key="GridCell.Tab.1.center/0.0.1920.1050/1920.-4.1920.1050@0.0.1920.1050" timestamp="1583324302780" />
     <state width="1340" height="266" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1583071743679" />
-    <state width="1340" height="266" key="GridCell.Tab.1.left" timestamp="1583313551004">
+    <state width="1340" height="266" key="GridCell.Tab.1.left" timestamp="1583324302780">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1340" height="266" key="GridCell.Tab.1.left/0.0.1920.1050/1920.-4.1920.1050@0.0.1920.1050" timestamp="1583313551004" />
+    <state width="1340" height="266" key="GridCell.Tab.1.left/0.0.1920.1050/1920.-4.1920.1050@0.0.1920.1050" timestamp="1583324302780" />
     <state width="1340" height="266" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1583071743679" />
-    <state width="1340" height="266" key="GridCell.Tab.1.right" timestamp="1583313551004">
+    <state width="1340" height="266" key="GridCell.Tab.1.right" timestamp="1583324302780">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1340" height="266" key="GridCell.Tab.1.right/0.0.1920.1050/1920.-4.1920.1050@0.0.1920.1050" timestamp="1583313551004" />
+    <state width="1340" height="266" key="GridCell.Tab.1.right/0.0.1920.1050/1920.-4.1920.1050@0.0.1920.1050" timestamp="1583324302780" />
     <state width="1340" height="266" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1583071743679" />
     <state width="1340" height="328" key="GridCell.Tab.2.bottom" timestamp="1583245242831">
       <screen x="0" y="0" width="1920" height="1050" />
@@ -308,10 +298,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="706" y="180" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1050/1920.-4.1920.1050@0.0.1920.1050" timestamp="1583311858749" />
-    <state x="640" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1583310199968">
+    <state x="640" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1583321026164">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="640" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/1920.-4.1920.1050@0.0.1920.1050" timestamp="1583310199968" />
+    <state x="640" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/1920.-4.1920.1050@0.0.1920.1050" timestamp="1583321026164" />
     <state x="769" y="230" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1583153497183">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
