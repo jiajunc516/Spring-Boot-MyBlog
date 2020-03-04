@@ -4,6 +4,7 @@ import com.cjj.demo.NotFoundException;
 import com.cjj.demo.dao.BlogRepository;
 import com.cjj.demo.po.Blog;
 import com.cjj.demo.po.Type;
+import com.cjj.demo.util.MyBeanUtils;
 import com.cjj.demo.vo.BlogQuery;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -74,7 +75,8 @@ public class BlogServiceImpl implements BlogService {
         if (b == null) {
             throw new NotFoundException("该博客不存在");
         }
-        BeanUtils.copyProperties(b, blog);
+        BeanUtils.copyProperties(blog, b, MyBeanUtils.getNullPropertyNames(blog));
+        b.setUpdateTime(new Date());
         return blogRepository.save(b);
     }
 
