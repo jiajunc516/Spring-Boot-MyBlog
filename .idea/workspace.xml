@@ -4,7 +4,7 @@
     <list default="true" id="0bbc3c0e-a75b-49a9-a88b-08c83b607063" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/blog-dev.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/blog-dev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/_fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/_fragments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/blog.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +175,7 @@
       <workItem from="1583300902317" duration="5816000" />
       <workItem from="1583310199439" duration="3413000" />
       <workItem from="1583321026144" duration="9500000" />
-      <workItem from="1583386563621" duration="7739000" />
+      <workItem from="1583386563621" duration="8477000" />
     </task>
     <servers />
   </component>
