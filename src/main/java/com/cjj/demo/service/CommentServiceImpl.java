@@ -23,7 +23,7 @@ public class CommentServiceImpl implements CommentService {
 
     @Override
     public List<Comment> listCommentByBlogId(Long blogId) {
-        Sort sort = Sort.by(Sort.Direction.DESC, "createTime");
+        Sort sort = Sort.by("createTime");
         List<Comment> comments = commentRepository.findByBlogIdAndParentCommentNull(blogId, sort);
         return eachComment(comments);
     }
@@ -88,9 +88,11 @@ public class CommentServiceImpl implements CommentService {
         if (comment.getReplyComments().size() > 0) {
             List<Comment> replys  = comment.getReplyComments();
             for(Comment reply : replys) {
-                tempReplys.add(reply);
                 if (reply.getReplyComments().size() > 0) {
                     recursively(reply);
+                }
+                else {
+                    tempReplys.add(reply);
                 }
             }
         }
