@@ -47,11 +47,6 @@ public class IndexController {
         return "blog";
     }
 
-    @RequestMapping("/types")
-    public String types() {
-        return "types";
-    }
-
     @RequestMapping("/tags")
     public String tags() {
         return "tags";
